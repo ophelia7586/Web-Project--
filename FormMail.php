@@ -116,7 +116,7 @@ $mail->MsgHTML($body);
  
 $address = "ceng310new@gmail.com";
 $mail->AddAddress($address, "CENG 310");
-$mail->AddCC($email, "Feyza");
+$mail->AddCC($email,$firstName);
 $mail->AddBCC($address, "Zeynep Orhan"); 
 //$mailer->ConfirmReadingTo = 'ceng310new@gmail.com';//If you want to request a Read Receipt from the person who receives the E-Mail, you can use the following setting:
 $mail->AddAttachment("images/FU.gif"); // attachment
