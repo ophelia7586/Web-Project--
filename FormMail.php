@@ -234,7 +234,7 @@ First Name<br>
 
 
 <?php
-echo "<h2>Hello".$firstName.$lastName."<br>We sent a verification mail to your email which is:".$email."</h2>";
+echo "<h3>Hello".$firstName.$lastName."<br>We sent a verification mail to your email which is:".$email."</h3>";
 
 ?>
 
